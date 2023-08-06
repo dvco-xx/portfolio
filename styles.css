@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
-
 @font-face {
   font-family: "Rock Salt";
   src: url("./fonts/RockSalt-Regular.ttf");
@@ -15,7 +13,6 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Roboto", cursive;
   color: #eee;
 }
 
@@ -227,7 +224,7 @@ li {
 }
 
 .landing-text h6 {
-  font-family: "Roboto", cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   padding: 1rem;
   font-weight: 100;
@@ -668,17 +665,17 @@ input[type="submit"]:hover {
   }
 
   .landing-text h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-family: "Rock Salt", cursive;
   }
 
   .landing-text h6 {
     font-size: 1.4rem;
-    font-family: 'Roboto', cursive;
+    font-family: 'Roboto', sans-serif;
   }
 
   .skill h1 {
-    font-family: "Roboto", cursive;
+    font-family: 'Roboto', sans-serif;
   }
 
   .nav-link {
