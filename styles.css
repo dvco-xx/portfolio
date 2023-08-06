@@ -220,6 +220,7 @@ li {
   font-weight: 800;
   background: linear-gradient(to top, #ff0202, #fd5757);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
   user-select: none;
@@ -263,7 +264,7 @@ li {
 
 .about-details p {
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 2.3rem;
   word-spacing: .05rem;
   letter-spacing: .05rem;
@@ -400,12 +401,12 @@ li {
   margin-top: 2.5rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #0025f7;
+  color: #f70000;
   transition: color 650ms;
 }
 
 .portfolio-description .cta:hover {
-  color: #3f73d4;
+  color: #f75858;
 }
 
 /*End services*/
@@ -519,7 +520,7 @@ input[type="submit"] {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   width: 12rem;
-  background-color: #1d2ba7;
+  background-color: #ff0000;
   color: #eee;
   margin: 0 auto;
   margin-top: 2rem;
@@ -531,7 +532,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   color: #eee;
-  background-color: #2f67cd;
+  background-color: #f85151;
   ;
 }
 
@@ -668,10 +669,16 @@ input[type="submit"]:hover {
 
   .landing-text h1 {
     font-size: 6rem;
+    font-family: "Rock Salt", cursive;
   }
 
   .landing-text h6 {
     font-size: 1.4rem;
+    font-family: 'Roboto', cursive;
+  }
+
+  .skill h1 {
+    font-family: "Roboto", cursive;
   }
 
   .nav-link {
