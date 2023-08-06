@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
+
 @font-face {
   font-family: "Rock Salt";
   src: url("./fonts/RockSalt-Regular.ttf");
@@ -44,6 +45,7 @@ p {
 img {
   width: 100%;
 }
+
 /*End global*/
 
 /*Start reusable*/
@@ -100,6 +102,7 @@ img {
 .has-margin-right {
   margin-right: 5rem;
 }
+
 /*End reusable*/
 
 /*Start header*/
@@ -142,7 +145,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus {
-  background: linear-gradient(to top, #ffe838, #fd57ef);
+  background: linear-gradient(to top, #fa0000, #ffadad);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -172,7 +175,7 @@ li {
 }
 
 .bar {
-  background: linear-gradient(to right, #ffe838, #fe57bf);
+  background: linear-gradient(to right, #ff0000, #ffadad);
   width: 100%;
   height: 4px;
   border-radius: 0.8rem;
@@ -215,7 +218,7 @@ li {
   font-size: 12rem;
   font-family: "Rock Salt", cursive;
   font-weight: 800;
-  background: linear-gradient(to top, #ffe838, #fd57ef);
+  background: linear-gradient(to top, #ff0202, #fd5757);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 1rem;
@@ -228,6 +231,7 @@ li {
   padding: 1rem;
   font-weight: 100;
 }
+
 /*End header*/
 
 /*Start about*/
@@ -294,9 +298,11 @@ li {
 .fa-github-square:hover {
   color: #49ca1e;
 }
+
 .fa-linkedin:hover {
   color: #4c6cea;
 }
+
 .fa-dribbble:hover {
   color: #ea4c89;
 }
@@ -308,6 +314,7 @@ li {
 .fa-behance-square:hover {
   color: #296df5;
 }
+
 /*End about*/
 
 /*Start services*/
@@ -337,18 +344,19 @@ li {
   width: 15rem;
   height: 15rem;
   border: 3px solid #ffffff;
-  background-color: #ff5076;
+  background-color: #ff0000;
   margin-bottom: 2rem;
   display: flex;
   transform: rotate(45deg);
 }
 
 .icon-container i {
-  color: #ffe89e;
+  color: #ffffff;
   font-size: 5rem;
   margin: auto;
   transform: rotate(-45deg);
 }
+
 /*End services*/
 
 /*Start portfolio*/
@@ -392,13 +400,14 @@ li {
   margin-top: 2.5rem;
   font-size: 1.5rem;
   text-transform: uppercase;
-  color: #3883ff;
+  color: #0025f7;
   transition: color 650ms;
 }
 
 .portfolio-description .cta:hover {
-  color: #2f67cd;
+  color: #3f73d4;
 }
+
 /*End services*/
 
 /*Start timeline*/
@@ -453,7 +462,7 @@ li {
 
 .timeline .date::after {
   content: "";
-  box-shadow: 0 0 0 4px #ff225d;
+  box-shadow: 0 0 0 4px #ff0000;
   border-radius: 100%;
   left: -8rem;
   height: 1.5rem;
@@ -462,12 +471,17 @@ li {
 }
 
 .experience p {
-    font-size: 1.8rem;
-    line-height: 2.5rem;
-    margin-bottom: 5rem;
-    font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-bottom: 5rem;
+  font-weight: 400;
 }
+
 /*End timeline*/
+.resume:hover {
+  transition: color 650ms;
+  color: #ff3b3b;
+}
 
 /*Start contact*/
 .contact {
@@ -498,7 +512,7 @@ textarea {
   margin-bottom: 2rem;
   border: none;
   outline-color: #271e4d;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 input[type="submit"] {
@@ -510,15 +524,17 @@ input[type="submit"] {
   margin: 0 auto;
   margin-top: 2rem;
   padding: 2rem 2rem;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   transition: background-color 650ms;
 }
 
 input[type="submit"]:hover {
   color: #eee;
-  background-color: #2f67cd;;
+  background-color: #2f67cd;
+  ;
 }
+
 /*End contact*/
 
 /*Start footer*/
@@ -552,20 +568,24 @@ input[type="submit"]:hover {
   font-size: 2rem;
   margin: auto;
 }
+
 /*End footer*/
 
 /*Start animations*/
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 0 0 rgb(254, 62, 113);
+    box-shadow: 0 0 0 0 rgb(255, 0, 0);
   }
+
   70% {
     box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
   }
+
   100% {
     box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
   }
 }
+
 /*End animations*/
 
 /*Start media queries*/
@@ -574,9 +594,11 @@ input[type="submit"]:hover {
     background: url("./images/sitebg2.jpg") no-repeat center fixed;
     background-size: cover;
   }
+
   .landing-text h1 {
     font-size: 8rem;
   }
+
   .landing-text h6 {
     font-size: 1.5rem;
   }
@@ -584,15 +606,16 @@ input[type="submit"]:hover {
   .nav-list {
     flex-direction: column;
   }
+
   li {
     margin: 2rem 0;
   }
 
-  
+
   .section-heading h1 {
-      font-size: 3rem;
-    }
-    
+    font-size: 3rem;
+  }
+
   .nav-link {
     font-size: 3rem;
   }
@@ -600,9 +623,11 @@ input[type="submit"]:hover {
   .about-heading h1 {
     font-size: 8rem;
   }
+
   .about-details .nav-list {
     flex-direction: initial;
   }
+
   .about-details li {
     margin: 0 2rem;
   }
@@ -611,6 +636,7 @@ input[type="submit"]:hover {
     width: 10rem;
     height: 10rem;
   }
+
   .icon-container li {
     font-size: 4rem;
   }
@@ -622,6 +648,7 @@ input[type="submit"]:hover {
   .timeline .date::before {
     left: -20rem;
   }
+
   .timeline .date::after {
     left: -5.9rem;
   }
@@ -642,6 +669,7 @@ input[type="submit"]:hover {
   .landing-text h1 {
     font-size: 6rem;
   }
+
   .landing-text h6 {
     font-size: 1.4rem;
   }
@@ -653,6 +681,7 @@ input[type="submit"]:hover {
   .about-heading h1 {
     font-size: 2.5rem;
   }
+
   .about .container {
     flex-direction: column;
   }

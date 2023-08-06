@@ -1,319 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>David Osuchukwu</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="menu-header">
-      <div class="menu-toggler">
-        <div class="bar half start"></div>
-        <div class="bar"></div>
-        <div class="bar half end"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Osuchukwu</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="menu-header">
+    <div class="menu-toggler">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
+    </div>
+    <nav class="top-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#services" class="nav-link">Services</a>
+        </li>
+        <li>
+          <a href="#portfolio" class="nav-link">Portfolio</a>
+        </li>
+        <li>
+          <a href="#experience" class="nav-link">Experience</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="landing-text">
+      <h1>David Osuchukwu</h1>
+      <h6>Multi-Lingual Software Engineer | Java Backend Developer</h6>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Services</h1>
+        <h6 id="services">What I can do for you</h6>
       </div>
-      <nav class="top-nav">
-        <ul class="nav-list">
-          <li>
-            <a href="index.html" class="nav-link">Home</a>
+      <div class="my-skills">
+        <div class="skill" data-aos="fade-in" data-aos-delay="300">
+          <div class="icon-container">
+            <i class="fa fa-desktop"></i>
+          </div>
+          <h1>Software Engineering</h1>
+          <p>
+            Engineer cost-effective, scalable, cloud-native web solutions and distributed applications with high
+            performance and availabilty.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="600">
+          <div class="icon-container">
+            <i class="fa fa-code"></i>
+          </div>
+          <h1>Web Development</h1>
+          <p>
+            Build fully functional, mobile-responsive and secure websites
+            from the ground-up based entirely on your preferences.
+          </p>
+        </div>
+        <div class="skill" data-aos="fade-in" data-aos-delay="900">
+          <div class="icon-container">
+            <i class="fa fa-bar-chart"></i>
+          </div>
+          <h1>Product Strategy</h1>
+          <p>
+            Optimize web applications to perform at the highest level. Reach more
+            people and build a dedicated audience of paid monthly users.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Porfolio</h1>
+        <h6 id="portfolio">View some of my recent work</h6>
+      </div>
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+          <img src="./images/univaciti.PNG" alt="" />
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+          <h6>Web Development</h6>
+          <h1>Univaciti.com</h1>
+          <p>
+            Easily recruit the best Tech talent across Africa at the click of a button!
+          </p>
+          <a href="https://www.univaciti.com" class="cta">View Details <i class="fa fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+          <h6>Software Engineering</h6>
+          <h1>GMB Admin Portal & API Omni-channel</h1>
+          <p>
+            A custom, role-based solution for Greenwich Merchant Bank to integrate and manage over 1000 high-value
+            partner API's, transactions and much more.
+          </p>
+          <a href="https://www.greenwichadmin.s3-website-us-east-1.amazonaws.com" class="cta">View Details</a>
+        </div>
+        <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+          <img src="./images/greenwichadmin.PNG" alt="Greenwich Admin Portal" />
+        </div>
+      </div>
+
+      <div class="portfolio-item">
+        <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+          <img src="./images/rubiewire.PNG" alt="Rubies Wire App" />
+        </div>
+        <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+          <h6>Backend Development</h6>
+          <h1>Rubies Wire</h1>
+          <p>
+            A 100% digital wire app to ease currency coversion and global transfer woes. Easily convert and send money
+            to Nigeria from whatever country you reside!
+          </p>
+          <a href="https://rubiescanada.netlify.app/home-view" class="cta">View Details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Work Experience</h1>
+        <h6 id="experience">A timeline of my previous work</h6>
+      </div>
+      <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+        <ul>
+          <li class="date" data-date="2021 - present">
+            <h1>Qucoon Consulting Limited</h1>
+            <p>
+              Performed high-level software engineering and I.T consultancy on behalf of top banks within the Nigerian
+              Financial Sector e.g. FirstBank Nigeria, Sterling Bank, Fidelity Bank Plc, Greenwich Merchant Bank etc.,
+              as well as experience bootstrapping FinTech startups such as Rubies MFB using Kotlin + SpringBoot.
+            </p>
           </li>
-          <li>
-            <a href="#services" class="nav-link">Services</a>
+          <li class="date" data-date="2018 - 2020">
+            <h1>Tech Knights Plc.</h1>
+            <p>
+              Ideated, developed and maintained highly scalable and accessible websites, web portals and applications on
+              behalf of several clients including individuals, NGO's as well as private firms.
+            </p>
           </li>
-          <li>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#experience" class="nav-link">Experience</a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link">Contact</a>
+          <li class="date" data-date="2017">
+            <h1>Zinox Technologies Limited</h1>
+            <p>
+              Onboarded for a 2-months intensive internship at Zinox
+              Technologies, one of the largest indigenous I.T firms in Nigeria as a Systems
+              Administrator/Junior Network Engineer.
+            </p>
           </li>
         </ul>
-      </nav>
-      <div class="landing-text">
-        <h1>David Osuchukwu</h1>
-        <h6>Front-End Developer | UI/UX Designer</h6>
       </div>
-    </header>
+    </div>
+  </section>
 
-    <section class="services">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Services</h1>
-          <h6 id="services">What I can do for you</h6>
-        </div>
-        <div class="my-skills">
-          <div class="skill" data-aos="fade-in" data-aos-delay="300">
-            <div class="icon-container">
-              <i class="fa fa-desktop"></i>
-            </div>
-            <h1>Web Design</h1>
-            <p>
-              Create and design amazing user interfaces and experiences from
-              scratch, complete with wireframes and prototypes.
-            </p>
-          </div>
-          <div class="skill" data-aos="fade-in" data-aos-delay="600">
-            <div class="icon-container">
-              <i class="fa fa-code"></i>
-            </div>
-            <h1>Web Development</h1>
-            <p>
-              Build a fully functional, mobile-responsive and secure website
-              from the ground-up based entirely on your preferences.
-            </p>
-          </div>
-          <div class="skill" data-aos="fade-in" data-aos-delay="900">
-            <div class="icon-container">
-              <i class="fa fa-bar-chart"></i>
-            </div>
-            <h1>Product Strategy</h1>
-            <p>
-              Optimize your website to perform at the highest level. Reach more
-              people and build a dedicated audience of monthly users.
-            </p>
-          </div>
-        </div>
+  <section>
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2><a href="/F:/Desktop/David_Osuchukwu_CV_2023.pdf" class="resume" download>Download Resume</a></h2>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="portfolio">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Porfolio</h1>
-          <h6 id="portfolio">View some of my recent work</h6>
-        </div>
-        <div class="portfolio-item">
-          <div
-            class="portfolio-img has-margin-right"
-            data-aos="fade-right"
-            data-aos-delay="300"
-          >
-            <img src="./images/portitem1.jpeg" alt="" />
-          </div>
-          <div
-            class="portfolio-description"
-            data-aos="fade-left"
-            data-aos-delay="600"
-          >
-            <h6>Web Development</h6>
-            <h1>Blog Website</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga,
-              consectetur! Ducimus, animi. Ad, officiis sequi.
-            </p>
-            <a href="#" class="cta"
-              >View Details <i class="fa fa-arrow-right"></i
-            ></a>
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div
-            class="portfolio-description has-margin-right"
-            data-aos="fade-right"
-            data-aos-delay="900"
-          >
-            <h6>Web Design</h6>
-            <h1>Product Layout</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga,
-              consectetur! Ducimus, animi. Ad, officiis sequi.
-            </p>
-            <a href="#" class="cta">View Details</a>
-          </div>
-          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
-            <img src="./images/portitem2.jpeg" alt="" />
-          </div>
-        </div>
-
-        <div class="portfolio-item">
-          <div
-            class="portfolio-img has-margin-right"
-            data-aos="fade-right"
-            data-aos-delay="1500"
-          >
-            <img src="./images/portitem3.jpeg" alt="" />
-          </div>
-          <div
-            class="portfolio-description"
-            data-aos="fade-left"
-            data-aos-delay="1800"
-          >
-            <h6>Product Design</h6>
-            <h1>Product Sketch</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga,
-              consectetur! Ducimus, animi. Ad, officiis sequi.
-            </p>
-            <a href="#" class="cta">View Details</a>
-          </div>
-        </div>
+  <section class="about">
+    <div class="container">
+      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+        <img src="./images/profile.jpg" alt="" />
       </div>
-    </section>
-
-    <section class="experience">
-      <div class="container">
+      <div class="about-details" data-aos="fade-left" data-aos-delay="600">
         <div class="section-heading">
-          <h1>Work Experience</h1>
-          <h6 id="experience">Past and current jobs</h6>
+          <h1>About Me</h1>
         </div>
-        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
-          <ul>
-            <li class="date" data-date="2020 - present">
-              <h1>Youth Resource Centre, Bonny</h1>
-              <p>
-                I.T volunteer at the Bonny Youth Resource Center where I teach
-                from Digital Illustration and Graphic Design to Full-Stack Web
-                Development and Information Security. I still accept freelance
-                jobs when I can but am currently seeking a more permanent role
-                as a Full-Stack Web Developer. Also open to remote work!
-              </p>
+        <p style="text-align: center;">
+          I am a multi-lingual Software Engineer and Backend Developer from Nigeria.
+          I hold a degree in Information Technology from E.M.U, North Cyprus as well as certifications from
+          distinguished organizations including AWS and Microsoft. <br>I enjoy designing, architecting and implementing
+          scalable, highly accessible websites/apps using a myriad of tools and programming languages - Java being my
+          favorite due to it's high level of usability across multiple platforms. I also enjoy playing football ⚽, read
+          📖 and enjoy gardening 🌿 when I'm not writing code.
+          Feel free to reach out using the social links below!
+        </p>
+        <div class="social-media">
+          <ul class="nav-list">
+            <li>
+              <a href="www.github.com/dvco-xx" class="icon-link">
+                <i class="fa fa-github-square"></i>
+              </a>
             </li>
-            <li class="date" data-date="2018 - 2020">
-              <h1>Freelance Web Developer</h1>
-              <p>
-                After my graduation, I decided to focus solely on designing and
-                building interactive, responsive websites using languages like
-                HTML5 (yes, it IS a languange), CSS3 and JavaScript for the
-                front-end side and Node.js as my preferred back-end framework of
-                choice, with a focus on creating more accessible and
-                user-friendly web-spaces. <br />
-                Although an extremely challenging period, I was able to learn
-                how to apply critical thinking and problem-solving methods to a
-                wide variety of areas both tech-related and otherwise. This also
-                helped me to massively improve my collaborative skills,
-                generally having to work within and across several teams
-                comprising many people and personalities, aided by version
-                management software like GitHub.
-              </p>
+            <li>
+              <a href="#" class="icon-link">
+                <i class="fa fa-twitter-square"></i>
+              </a>
             </li>
-            <li class="date" data-date="2017 - 2017">
-              <h1>Zinox Technologies Limited</h1>
-              <p>
-                Onboarded for a 2-months intensive internship at Zinox
-                Technologies, one of the largest indigenous I.T services and
-                consultancy firms in Nigeria and Africa, in the role of Systems
-                Administrator/Junior Network Engineer. Here, I was privileged to
-                learn the practical aspects of Data access management, Server
-                configuration and Networking. I was also able to greatly improve
-                my communication and reporting skills which are highly critical
-                in the I.T industry.
-              </p>
+            <li>
+              <a href="www.linkedin.com/in/davidosuchukwu" class="icon-link">
+                <i class="fa fa-linkedin"></i>
+              </a>
             </li>
           </ul>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="about">
-      <div class="container">
-        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-          <img src="./images/lti8jpUl_400x400.jpg" alt="" />
-        </div>
-        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
-          <div class="about-heading">
-            <h1 id="about">About Me</h1>
-          </div>
-          <p>
-            Hi! I'm David, a 24 year old Web Developer, UI/UX Designer and
-            Digital Illustrator currently working out of Bonny Island, Nigeria.
-            I hold a B.Sc. in Information Technology from Eastern Mediterranean
-            University, North Cyprus and enjoy designing and building
-            responsive, user-friendly websites. I love to play football ⚽, read
-            📖 and love gardening 🌿 when I'm not illustrating or writing code. I'm
-            usually highly introverted but not opposed to meeting new people so
-            feel free to message via the appropriate social media links below!
-          </p>
-          <div class="social-media">
-            <ul class="nav-list">
-              <li>
-                <a href="#" class="icon-link">
-                  <i class="fa fa-github-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-link">
-                  <i class="fa fa-twitter-square"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-link">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-link">
-                  <i class="fa fa-dribbble"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" class="icon-link">
-                  <i class="fa fa-behance-square"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <section class="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Contact Me</h1>
+        <h6 id="contact">Let's work together!</h6>
       </div>
-    </section>
+      <form action="https://formsubmit.co/osuchukwudavid@gmail.com" method="POST" data-aos="fade-up"
+        data-aos-delay="300">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="johndoe@example.com" required />
+        <label for="services">Service:</label>
+        <select name="service" id="service">
+          <option value="software engineering">Software Engineering</option>
+          <option value="web development">Web Development</option>
+          <option value="product strategy">Product Strategy</option>
+          <option value="all">All</option>
+        </select>
+        <label for="subject">Subject:</label>
+        <textarea name="subject" id="subject" cols="10" rows="10"
+          placeholder="Hi David, I'd love your help with..."></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </section>
 
-    <section class="contact">
-      <div class="container">
-        <div class="section-heading">
-          <h1>Contact</h1>
-          <h6 id="contact">Let's work together!</h6>
-        </div>
-        <form action="#" data-aos="fade-up" data-aos-delay="300">
-          <label for="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            placeholder="Enter your name"
-            required
-          />
-          <label for="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="johndoe@example.com"
-            required
-          />
-          <label for="services">Services:</label>
-          <select name="services" id="service">
-            <option value="">Web Design</option>
-            <option value="">Web Development</option>
-            <option value="">Web Design/Development</option>
-          </select>
-          <label for="subject">Subject:</label>
-          <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-    </section>
+  <footer class="copyright">
+    <div class="up" id="up">
+      <i class="fa fa-chevron-up"></i>
+    </div>
+    <p>&copy; 2021 David Osuchukwu</p>
+  </footer>
 
-    <footer class="copyright">
-      <div class="up" id="up">
-        <i class="fa fa-chevron-up"></i>
-      </div>
-      <p>&copy; 2021 David Osuchukwu</p>
-    </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="main.js"></script>
+</body>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="main.js"></script>
-  </body>
 </html>
